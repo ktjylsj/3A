@@ -53,7 +53,7 @@ def findwordsim(keyword):
     client_id = "N2Zyz2JpfmOreXybO7bZ"
     client_secret = "gddzJjJd5a"
     encText = urllib.parse.quote(keyword)
-    url = "https://openapi.naver.com/v1/search/blog?query=" + encText + "&display=10"  # json 결과
+    url = "https://openapi.naver.com/v1/search/blog?query=" + encText + "&display=50"  # json 결과
     # url = "https://openapi.naver.com/v1/search/blog.xml?query=" + encText + "&display=5"  # xml 결과
     request = urllib.request.Request(url)
     request.add_header("X-Naver-Client-Id", client_id)
@@ -128,14 +128,13 @@ def findwordsim(keyword):
             else:
                 AON.append('NA')  # 광고 아님
 
-    driver.close()  # 크롬 창 닫기
-
-    # 모든 링크, 본문, 광고유무를 데이터베이스에 저장. 각 사용자마다 데이터베이스명 다름 주의
-    for i in range(len(AON)):
+         # 모든 링크, 본문, 광고유무를 데이터베이스에 저장. 각 사용자마다 데이터베이스명 다름 주의
         with conn.cursor() as cursor:
             sql = 'INSERT INTO mydb.adtext (name, contents, AON, keyword) VALUES (%s, %s, %s, %s)'
-            cursor.execute(sql, (link[i], text[i], AON[i], keyword))
+            cursor.execute(sql, (url, txt, AON[len(AON)-1], keyword))
         conn.commit()
+
+    driver.close()  # 크롬 창 닫기
 
 
 # ------------------------------------------------------------------------------
