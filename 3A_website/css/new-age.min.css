@@ -266,7 +266,7 @@ header.bloghead {
   color: white;
   background: #c5aad2;
   background: -webkit-gradient(linear, right top, left top, from(#c5aad2), to(#86ecf5));
-  background: linear-gradient(to top, #8ab9d0, white);
+  background: linear-gradient(to top left, #8ab9d0, #a168bd);
 }
 
 header.bloghead .header-content {
@@ -1018,6 +1018,10 @@ background: linear-gradient(#fdcc52, #fdc539);
   align-items: center;
   border-radius: 50%;
   color:white;
+}
+
+input[type="submit"]{
+  font-family: FontAwesome;
 }
 
 .post-preview > a {
