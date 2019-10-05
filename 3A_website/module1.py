@@ -18,9 +18,10 @@ options.add_argument("disable-gpu")
 # 정규표현식 컴파일
 jpg = re.compile(".png|.jpg")
 ad = re.compile("저작권료|협찬|원고료|활동비|제공받아|지원받아|지급받아")  # 공시 지원금 때문에 지원금 뺌
-'''
+
 # db 접근
 conn = pymysql.connect(host='223.194.46.68', user='guest', password='1q2w3e4r!', db='my_db', charset='utf8mb4')
+'''
 # ------------------------------------------------------------------------------
 def module1(keyword):
     start = time.time()
@@ -30,7 +31,7 @@ def module1(keyword):
     client_id = "N2Zyz2JpfmOreXybO7bZ"
     client_secret = "gddzJjJd5a"
     encText = urllib.parse.quote(keyword)
-    url = "https://openapi.naver.com/v1/search/blog?query=" + encText + "&display=15"  # json 결과
+    url = "https://openapi.naver.com/v1/search/blog?query=" + encText + "&display=12"  # json 결과
     request = urllib.request.Request(url)
     request.add_header("X-Naver-Client-Id", client_id)
     request.add_header("X-Naver-Client-Secret", client_secret)

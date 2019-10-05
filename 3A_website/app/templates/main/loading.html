@@ -67,8 +67,10 @@
         <div class="col-lg-7 my-auto">
           <div class="header-content mx-auto">
             <h3 class="mb-5">'{{ keyword }}' 검색 결과 분석중 ... </h3>
+            <h4 class="mb-5"> 1~2분 소요됩니다 </h4>
             <div class="header-content mx-auto">
-              <h4 class="mb-5"> 1~2분 소요됩니다 </h4>
+              <br>
+              <div class="loader"></div>
               <form id="key" method="POST" action="/blog_list">
                 <input type="hidden" name="keyword" value={{keyword}}>
                 <div style="visibility: hidden;">

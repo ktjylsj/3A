@@ -211,7 +211,7 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
+  font-family: 'Jeju Gothic';
   font-size: inherit;
   line-height: inherit;
 }
