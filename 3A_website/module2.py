@@ -6,7 +6,7 @@ from gensim.models.doc2vec import TaggedDocument
 from gensim.models import Doc2Vec
 from konlpy.tag import Okt
 okt = Okt()
-
+'''
 # db 접근
 conn = pymysql.connect(host='223.194.46.68', user='guest', password='1q2w3e4r!', db='my_db', charset='utf8mb4')
 
@@ -22,7 +22,7 @@ with conn.cursor() as cursor:
 for doc in temp1:
     labels.append(doc[2])
 
-
+'''
 def module2(blog):
     model_name = 'Devices_s1000_w5_w8_3.model'
     doc2vec_model = Doc2Vec.load(model_name)

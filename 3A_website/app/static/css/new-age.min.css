@@ -7,7 +7,7 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
- @import url(http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicWeb);
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
 
  html,
  body {
@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: 'NanumGothicWeb', 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Jeju Gothic', 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 a {
@@ -46,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'NanumGothicWeb', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Jeju Gothic', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -70,15 +70,15 @@ section h2 {
   background-color: white;
   -webkit-transition: all .35s;
   transition: all .35s;
-  font-family: 'NanumGothicWeb', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Jeju Gothic', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand {
   color: #ffc22b;
-  font-size: 15px;
-  font-family: 'NanumGothicWeb', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 25px;
+  font-family: 'Jeju Gothic', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -95,7 +95,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a {
   font-size: 15px;
-  font-family: 'NanumGothicWeb', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -159,6 +159,7 @@ section h2 {
 }
 
 header.masthead {
+  font-family: 'Jeju Gothic';
   position: relative;
   width: 100%;
   padding-top: 150px;
@@ -170,12 +171,14 @@ header.masthead {
 }
 
 header.masthead .header-content {
+  font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   max-width: 960px;
   margin-bottom: 100px;
   text-align: center;
 }
 
 header.masthead .header-content h1 {
+  font-family: 'Jeju Gothic';
   font-size: 30px;
 }
 
@@ -197,10 +200,12 @@ header.masthead .device-container .screen img {
     padding-bottom: 0;
   }
   header.masthead .header-content {
+    font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     margin-bottom: 0;
     text-align: left;
   }
   header.masthead .header-content h1 {
+    font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     font-size: 50px;
   }
   header.masthead .device-container {
@@ -209,6 +214,7 @@ header.masthead .device-container .screen img {
 }
 
 header.subhead {
+  font-family: 'Jeju Gothic';
   position: relative;
   width: 100%;
   padding-top: 150px;
@@ -216,16 +222,18 @@ header.subhead {
   color: white;
   background: #c5aad2;
   background: -webkit-gradient(linear, right top, left top, from(#c5aad2), to(#86ecf5));
-  background: linear-gradient(to top left, #8ab9d0, #a168bd);
+  background: linear-gradient(to top left, #a168bd, #8ab9d0);
 }
 
 header.subhead .header-content {
+  font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   max-width: 960px;
   margin-bottom: 100px;
   text-align: center;
 }
 
 header.subhead .header-content h1 {
+  font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   font-size: 30px;
 }
 
@@ -247,10 +255,12 @@ header.subhead .device-container .screen img {
     padding-bottom: 0;
   }
   header.subhead .header-content {
+    font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     margin-bottom: 0;
     text-align: left;
   }
   header.subhead .header-content h1 {
+    font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     font-size: 50px;
   }
   header.subhead .device-container {
@@ -270,12 +280,14 @@ header.bloghead {
 }
 
 header.bloghead .header-content {
+  font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   max-width: 960px;
   margin-bottom: 100px;
   text-align: center;
 }
 
 header.bloghead .header-content h1 {
+  font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   font-size: 30px;
 }
 
@@ -297,10 +309,12 @@ header.bloghead .device-container .screen img {
     padding-bottom: 0;
   }
   header.bloghead .header-content {
+    font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     margin-bottom: 0;
     text-align: left;
   }
   header.bloghead .header-content h1 {
+    font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     font-size: 50px;
   }
   header.bloghead .device-container {
@@ -320,12 +334,14 @@ header.loadhead {
 }
 
 header.loadhead .header-content {
+  font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   max-width: 960px;
   margin-bottom: 100px;
   text-align: center;
 }
 
 header.loadhead .header-content h1 {
+  font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   font-size: 30px;
 }
 
@@ -347,10 +363,12 @@ header.loadhead .device-container .screen img {
     padding-bottom: 0;
   }
   header.loadhead .header-content {
+    font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     margin-bottom: 0;
     text-align: left;
   }
   header.loadhead .header-content h1 {
+    font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     font-size: 50px;
   }
   header.loadhead .device-container {
@@ -443,12 +461,13 @@ section.features .feature-item i {
 
 section.cta {
   position: relative;
-  padding: 250px 0;
+  padding: 400px 0;
   background-position: center;
   background-size: cover;
 }
 
 section.cta .cta-content {
+  font-family: 'Jeju Gothic';
   position: relative;
   z-index: 1;
 }
@@ -477,6 +496,7 @@ section.cta .overlay {
 }
 
 section.contact {
+  font-family: 'Jeju Gothic';
   text-align: center;
 }
 
@@ -567,7 +587,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 body {
-  font-family: 'NanumGothicWeb', 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Jeju Gothic', 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 a {
@@ -597,7 +617,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'NanumGothicWeb', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Jeju Gothic', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -621,14 +641,14 @@ section h2 {
   background-color: white;
   -webkit-transition: all .35s;
   transition: all .35s;
-  font-family: 'NanumGothicWeb', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Jeju Gothic', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand {
   color: #ffbb12;
-  font-family: 'NanumGothicWeb', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Jeju Gothic', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -645,7 +665,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a {
   font-size: 11px;
-  font-family: 'NanumGothicWeb', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -720,12 +740,14 @@ header.masthead {
 }
 
 header.masthead .header-content {
+  font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   max-width: 960px;
   margin-bottom: 100px;
   text-align: center;
 }
 
 header.masthead .header-content h1 {
+  font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   font-size: 30px;
 }
 
@@ -747,10 +769,12 @@ header.masthead .device-container .screen img {
     padding-bottom: 0;
   }
   header.masthead .header-content {
+    font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     margin-bottom: 0;
     text-align: left;
   }
   header.masthead .header-content h1 {
+    font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     font-size: 50px;
   }
   header.masthead .device-container {
@@ -829,6 +853,7 @@ section.features .feature-item {
 }
 
 section.features .feature-item h3 {
+  font-family: 'Jeju Gothic';
   font-size: 30px;
 }
 
@@ -983,7 +1008,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn {
   border-radius: 300px;
-  font-family: 'NanumGothicWeb', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -1018,7 +1043,7 @@ background: linear-gradient(#fdcc52, #fdc539);
 
 .btn {
   border-radius: 300px;
-  font-family: 'NanumGothicWeb', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Jeju Gothic', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -1083,6 +1108,7 @@ input[type="submit"]{
 }
 
 .post-preview > a > .post-title {
+  font-family: 'Jeju Gothic';
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 10px;
@@ -1112,21 +1138,17 @@ input[type="submit"]{
 
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
+    font-family: 'Jeju Gothic';
     font-size: 36px;
   }
 }
 
 .loader {
-    position: absolute;
-    left: 50%;
-    top: 50%;
     z-index: 1;
-    width: 150px;
-    height: 150px;
-    margin: -75px 0 0 -75px;
+    margin: 30px 0 0 30px;
     border: 16px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 16px solid #3498db;
+    border-top: 16px solid #fdcc52;
     width: 120px;
     height: 120px;
     -webkit-animation: spin 2s linear infinite;
